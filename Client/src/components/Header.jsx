@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Button from "@mui/material/Button";
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -94,7 +95,29 @@ const Header = () => {
         </div>
 
         <div className="nav-child3">
-          <i className="fa-regular fa-circle-user account"></i>
+          <Button
+            variant="outlined"
+            sx={{
+              width: "100%",
+              padding: "5px 1rem",
+              maxWidth: "100px",
+              fontSize: "14px",
+              textTransform: "capitalize",
+              color: "#000000",
+              border: "2px solid #222a2f",
+              "&:hover": {
+                backgroundColor: "#222a2f",
+                color: "white",
+                border: "2px solid #222a2f",
+              },
+            }}
+          >
+            Sign Up
+          </Button>
+          <div>
+            <i className="fa-regular fa-circle-user account"></i>
+            <i class="fa-solid fa-angle-up"></i>
+          </div>
         </div>
       </div>
     </nav>
