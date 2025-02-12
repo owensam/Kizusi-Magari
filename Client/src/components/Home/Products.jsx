@@ -172,7 +172,7 @@ const Products = () => {
             <h1>PRODUCTS</h1>
             <img src="hr.svg" alt="" />
             <p>
-              “Nova Cars: Builted for those who demand excellence, performance,
+              “Kizusi Cars: Builted for those who demand excellence, performance,
               and a touch of luxury on the road.”
             </p>
           </div>

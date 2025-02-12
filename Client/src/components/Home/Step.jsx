@@ -47,7 +47,7 @@ const Step = () => {
         <div>
           <img src="discount.svg" alt="" />
           <p>
-            Limited-time offer! Book your car by <b>sep, 3, 2022</b> and get a
+            Limited-time offer! Book your car by <b>March, 28, 2025</b> and get a
             free upgrade.
           </p>
         </div>

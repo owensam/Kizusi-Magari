@@ -15,7 +15,7 @@ const Reserve = (props) => {
 
   const getData = async () => {
     try {
-      const response = await axios.get("https://nova-cars-api.vercel.app/server");
+      const response = await axios.get("https://kizusi-magari-api.vercel.app/server");
 
       const selectedCarName =
         response.data.vehicles[response.data.vehicles.length - 1].car;

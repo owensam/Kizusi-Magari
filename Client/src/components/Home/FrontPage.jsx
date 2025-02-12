@@ -6,7 +6,7 @@ const FrontPage = () => {
       <div className="front-child1">
         <h1>
           If comparable, It is no longer
-          <span className="nova"> KIZUSI!</span>
+          <span className="kizusi"> KIZUSI SMARTEX LTD!</span>
         </h1>
         <button className="order">
           <a href="#booking">Order now</a>{" "}

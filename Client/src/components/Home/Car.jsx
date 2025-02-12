@@ -38,7 +38,7 @@ const Car = (props) => {
             </div>
             <div className="buy">
               <a href="#booking"></a>
-              <p>$74,150</p>
+              <p>Ksh7,415,000</p>
               <p>Reserve</p>
             </div>
           </div>
@@ -63,7 +63,7 @@ const Car = (props) => {
             </div>
             <div className="buy">
               <a href="#booking"></a>
-              <p>$141,845</p>
+              <p>Ksh141,845</p>
               <p>Reserve</p>
             </div>
           </div>
@@ -88,7 +88,7 @@ const Car = (props) => {
             </div>
             <div className="buy">
               <a href="#booking"></a>
-              <p>$74,990</p>
+              <p>$7,499,000</p>
               <p>Reserve</p>
             </div>
           </div>

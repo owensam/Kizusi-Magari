@@ -191,8 +191,8 @@ export default function BasicAccordion() {
           </AccordionSummary>
           <AccordionDetails>
             <p>
-              You can reach our customer support team via support@nova.com,
-              +1-555-123-4567, or through the contact form on our website. We
+              You can reach our customer support team via samowen815@gmail.com,
+              +254-707-252-331, or through the contact form on our website. We
               are here to assist you with any questions or concerns.
             </p>
           </AccordionDetails>

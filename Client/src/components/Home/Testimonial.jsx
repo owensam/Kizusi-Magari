@@ -18,7 +18,7 @@ const Testimonial = () => {
             ></i>
 
             <p>
-              Nova exceeded my expectations for online car buying. The website's
+              Kizusi exceeded my expectations for online car buying. The website's
               simplicity, detailed info, and secure process made it a great
               experience. I highly recommend Nova for anyone looking for an easy
               and reliable way to purchase a car
@@ -30,8 +30,8 @@ const Testimonial = () => {
             </div>
 
             <div>
-              <p className="name">Jessica Kim</p>
-              <p className="profess">IT Consultant</p>
+              <p className="name">Simon Kibe</p>
+              <p className="profess">Senior Bachelor</p>
               <img src="stars2.svg" alt="" />
             </div>
           </div>
@@ -43,9 +43,9 @@ const Testimonial = () => {
               style={{ color: "#ffffff" }}
             ></i>
             <p>
-              I found my dream car on Nova's website, and it was a breeze to
+              I found my dream car on Kizusi's website, and it was a breeze to
               buy. The website is user-friendly, the car options are diverse,
-              and the whole process is transparent and efficient. Nova is my
+              and the whole process is transparent and efficient. Kizusi is my
               go-to for hassle-free online car shopping.
             </p>
           </div>
@@ -55,8 +55,8 @@ const Testimonial = () => {
             </div>
 
             <div>
-              <p className="name">DAVID WILSON</p>
-              <p className="profess">Marketing Specialist</p>
+              <p className="name">OWEN SAM OTIENO</p>
+              <p className="profess">Senior Software Engineer</p>
               <img src="stars.svg" alt="" />
             </div>
           </div>

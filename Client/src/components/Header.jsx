@@ -14,7 +14,7 @@ const Header = () => {
       <div className="container-fluid nav-cont">
         <div className="nav-child1">
           <Link className="navbar-brand" to="/">
-            <img className="logo logo1" src="nova.svg" alt="" />
+            <img className="logo logo1" src="kizusi.jpg" alt="" />
             <img className="logo logo2" src="tire.svg" alt="" />
           </Link>
         </div>
@@ -43,7 +43,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/about">
-                  About
+                  About Us
                 </Link>
               </li>
               <li className="nav-item">
@@ -79,7 +79,7 @@ const Header = () => {
                 <Link to="/vehicles">Vehicles</Link>
               </li>
               <li className="li li3">
-                <Link to="/about">About</Link>
+                <Link to="/about">About Us</Link>
               </li>
               <li className="li li4">
                 <a href="#testimonials">Testimonials</a>
