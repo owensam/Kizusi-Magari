@@ -176,10 +176,10 @@ const Book = () => {
             className="box"
           >
             <option>Select pick up location</option>
-            <option value="Los Angeles, California">
-              Los Angeles, California
+            <option value="Mombasa, City">
+              Mombasa, Kenya
             </option>
-            <option value="Miami, Florida">Miami, Florida</option>
+            <option value="Kisumu, Florida">Miami, Florida</option>
             <option value="New York City">New York City</option>
             <option value="Austin, Texas">Austin, Texas</option>
             <option value="Chicago, Illinois">Chicago, Illinois</option>

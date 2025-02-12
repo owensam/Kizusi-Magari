@@ -33,18 +33,18 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-childs">
-        <h1>Nova Cars</h1>
+        <h1>Kizusi Cars</h1>
         <p>
           We offers a big range of vehicles for all your driving needs. We have
           the perfect car to meet your needs.
         </p>
         <div className="info-cont">
           <i class="fa-solid fa-square-phone"></i>
-          <p>(123) -456-789</p>
+          <p>(254) -707-252-331</p>
         </div>
         <div className="info-cont">
           <i class="fa-regular fa-envelope"></i>
-          <p>Nova@gmail.com</p>
+          <p>samowen815@gmail.com</p>
         </div>
 
         <div className="social-cont">
@@ -55,8 +55,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-childs">
-        <h1>COMPANY</h1>
-        <a href="#/">New York</a>
+        <h1>ABOUT US</h1>
+        <a href="#/">Kipro Centre Nairobi</a>
         <a href="#/">Brand</a>
         <a href="#/">car dealers</a>
         <a href="#/">car reviews</a>
@@ -87,7 +87,7 @@ const Footer = () => {
           <p>Subscribed succesfully!</p>
         </div>
       </div>
-      <p className="copy">©2023, Nova. All rights reserved.</p>
+      <p className="copy">©2025, Anga Tech & Consultancy. All rights reserved.</p>
     </div>
   );
 };
