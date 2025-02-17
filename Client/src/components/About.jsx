@@ -12,8 +12,8 @@ const About = () => {
         <div>
           <h1>About Us</h1>
           <p>
-            <b>Welcome to Nova</b>, where innovation drives our passion for
-            redefining the future of mobility. At <b>Nova</b> , we blend{" "}
+            <b>Welcome to Kizusi Smartex Ltd</b>, where innovation drives our passion for
+            redefining the future of mobility. At <b>KIZUSI</b> , we blend{" "}
             <b>cutting-edge technology</b> to excellence to deliver a driving
             experience that transcends expectations.
           </p>
@@ -25,7 +25,7 @@ const About = () => {
         <div className="abt-descrp">
           <h1>You start the engine and your adventure begins</h1>
           <p>
-            Nova cars redefine the driving experience with advanced electric
+            Kizusi Magari redefine the driving experience with advanced electric
             propulsion, ensuring eco-friendly performance. Their sleek,
             aerodynamic design not only enhances fuel efficiency but also
             captivates with a modern aesthetic. The future unfolds with Nova's
