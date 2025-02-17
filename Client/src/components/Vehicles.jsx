@@ -21,7 +21,7 @@ const Vehicles = () => {
               <img src="vh4.png" alt="" />
             </div>
             <div className="vh-descrp-cont">
-              <h1>Nova vehicles</h1>
+              <h1>Kizusi Vehicles</h1>
               <p>
                 Explore Kizusi's Vehicles Page for a curated collection of sleek
                 sedans, SUVs, high-performance sports cars, eco-friendly
