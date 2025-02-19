@@ -11,7 +11,8 @@ I built the app to make these two things **easy, effortless, and seamless:**
 - The **booking and reserving system,** which allows users to **choose** their desired car **based on** varying **prices, fuel and transmission types, speed, and models.**
 
 ##  EXPOLRE OUR SOLUTION
-👉 Live Demo🔗: [kIZUSI-MAGARI Website](https://kizusi-magari-6l8raxzbf-owensams-projects.vercel.app/)
+👉 Live Demo🔗: [kIZUSI-CAR SALES Website](https://kizusi-magari.vercel.app/)
+- Contact Developer via Email:(<a href= "mailto:samowen815@gmail.com">samowen815@gmail.com</a>)
 
 ##  MAIN FEATURES
 - **Navigation and exploration** of a wide **variety of cars, Bikes & Plant Operation Equipments**, including SUVs, trucks, and vans.
