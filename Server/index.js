@@ -27,10 +27,16 @@ app.use(cors());
 const formDataSchema = new mongoose.Schema({
   category: String,
   car: String,
+  brand: String,
+  model: String,
+  yearOfManufacture: Number,
+  price: Number,
+  currency: String,
   pickupLoc: String,
   dropoffLoc: String,
   dateOfPickup: String,
   dateOfDropoff: String,
+  location: String
 });
 
 const carsSchema = new mongoose.Schema({});
@@ -40,18 +46,42 @@ const carsModel = mongoose.model("car", carsSchema);
 
 app.get("/server", async (req, res) => {
   try {
-    const vehicles = await FormDataModel.find();
-    const cars = await carsModel.find();
-    const data = {
-      vehicles,
-      cars,
-    };
-    res.json(data);
+    const { brand, model, minYOM, maxYOM, minPrice, maxPrice, currency, location, budget } = req.query;
+
+    let filters = {};
+
+    // Apply filters dynamically
+    if (brand) filters.brand = brand;
+    if (model) filters.model = model;
+    if (minYOM || maxYOM) {
+      filters.yearOfManufacture = {};
+      if (minYOM) filters.yearOfManufacture.$gte = Number(minYOM);
+      if (maxYOM) filters.yearOfManufacture.$lte = Number(maxYOM);
+    }
+    if (minPrice || maxPrice) {
+      filters.price = {};
+      if (minPrice) filters.price.$gte = Number(minPrice);
+      if (maxPrice) filters.price.$lte = Number(maxPrice);
+    }
+    if (currency) filters.currency = currency;
+    if (location) filters.location = location;
+
+    if (budget) {
+      // Handle budget like "0-500K"
+      const [minB, maxB] = budget.replace('K', '000').split('-');
+      filters.price = { $gte: Number(minB), $lte: Number(maxB) };
+    }
+
+    // Fetch from database based on filters
+    const vehicles = await FormDataModel.find(filters);
+    res.json(vehicles);
+
   } catch (err) {
-    console.log(err);
-    res.status(500).send("Error getting form data!");
+    console.error(err);
+    res.status(500).send("Error getting filtered form data!");
   }
 });
+
 
 app.post("/server", async (req, res) => {
   try {
